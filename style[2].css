@@ -1,0 +1,55 @@
+body {
+  background-color: orchid;
+}
+
+#grid,
+#sidePanel {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#grid {
+  font-size: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.square {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.marked {
+  opacity: .25;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#numbersParagraph {
+  width: 350px;
+  font-size: 30px;
+  word-spacing: 10px;
+  line-height: 50px;
+  margin-top: 26px;
+  margin-bottom: 25px;
+}
+
+#messageParagraph {
+  color: #ff4c00;
+  font-size: 50px;
+  margin: 0;
+}
+#yes {
+  font-size: 25px;
+}
